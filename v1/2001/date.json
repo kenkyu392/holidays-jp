@@ -1,0 +1,137 @@
+{
+    "holidays": [
+        {
+            "date": "2001-01-01",
+            "i18n": {
+                "en-US": "New Year’s Day",
+                "ja-JP": "元日"
+            }
+        },
+        {
+            "date": "2001-01-08",
+            "i18n": {
+                "en-US": "Coming of Age Day",
+                "ja-JP": "成人の日"
+            }
+        },
+        {
+            "date": "2001-02-11",
+            "i18n": {
+                "en-US": "National Foundation Day",
+                "ja-JP": "建国記念の日"
+            }
+        },
+        {
+            "date": "2001-02-12",
+            "i18n": {
+                "en-US": "Substitute Holiday (National Foundation Day)",
+                "ja-JP": "振替休日（建国記念の日）"
+            }
+        },
+        {
+            "date": "2001-03-20",
+            "i18n": {
+                "en-US": "Vernal Equinox Day",
+                "ja-JP": "春分の日"
+            }
+        },
+        {
+            "date": "2001-04-29",
+            "i18n": {
+                "en-US": "Greenery Day",
+                "ja-JP": "みどりの日"
+            }
+        },
+        {
+            "date": "2001-04-30",
+            "i18n": {
+                "en-US": "Substitute Holiday (Greenery Day)",
+                "ja-JP": "振替休日（みどりの日）"
+            }
+        },
+        {
+            "date": "2001-05-03",
+            "i18n": {
+                "en-US": "Constitution Memorial Day",
+                "ja-JP": "憲法記念日"
+            }
+        },
+        {
+            "date": "2001-05-04",
+            "i18n": {
+                "en-US": "National Holiday",
+                "ja-JP": "国民の休日"
+            }
+        },
+        {
+            "date": "2001-05-05",
+            "i18n": {
+                "en-US": "Children's Day",
+                "ja-JP": "こどもの日"
+            }
+        },
+        {
+            "date": "2001-07-20",
+            "i18n": {
+                "en-US": "Marine Day",
+                "ja-JP": "海の日"
+            }
+        },
+        {
+            "date": "2001-09-15",
+            "i18n": {
+                "en-US": "Respect for the Aged Day",
+                "ja-JP": "敬老の日"
+            }
+        },
+        {
+            "date": "2001-09-23",
+            "i18n": {
+                "en-US": "Autumnal Equinox Day",
+                "ja-JP": "秋分の日"
+            }
+        },
+        {
+            "date": "2001-09-24",
+            "i18n": {
+                "en-US": "Substitute Holiday (Autumnal Equinox Day)",
+                "ja-JP": "振替休日（秋分の日）"
+            }
+        },
+        {
+            "date": "2001-10-08",
+            "i18n": {
+                "en-US": "Health and Sports Day",
+                "ja-JP": "体育の日"
+            }
+        },
+        {
+            "date": "2001-11-03",
+            "i18n": {
+                "en-US": "Culture Day",
+                "ja-JP": "文化の日"
+            }
+        },
+        {
+            "date": "2001-11-23",
+            "i18n": {
+                "en-US": "Labor Thanksgiving Day",
+                "ja-JP": "勤労感謝の日"
+            }
+        },
+        {
+            "date": "2001-12-23",
+            "i18n": {
+                "en-US": "The Emperor's Birthday",
+                "ja-JP": "天皇誕生日"
+            }
+        },
+        {
+            "date": "2001-12-24",
+            "i18n": {
+                "en-US": "Substitute Holiday (The Emperor's Birthday)",
+                "ja-JP": "振替休日（天皇誕生日）"
+            }
+        }
+    ]
+}
