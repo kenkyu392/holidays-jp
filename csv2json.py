@@ -167,14 +167,14 @@ if __name__ == '__main__':
             records_per_year[year] = []
         records_per_year[year].append(record)
 
+    with open('v1/time.json', 'w') as f:
+        json.dump({'holidays': records}, f, **json_time_options)
+    with open('v1/date.json', 'w') as f:
+        json.dump({'holidays': records}, f, **json_date_options)
+
     for year, records in records_per_year.items():
         os.makedirs(f'v1/{year}', exist_ok=True)
         with open(f'v1/{year}/time.json', 'w') as f:
             json.dump({'holidays': records}, f, **json_time_options)
         with open(f'v1/{year}/date.json', 'w') as f:
             json.dump({'holidays': records}, f, **json_date_options)
-
-    with open('v1/time.json', 'w') as f:
-        json.dump({'holidays': records}, f, **json_time_options)
-    with open('v1/date.json', 'w') as f:
-        json.dump({'holidays': records}, f, **json_date_options)
