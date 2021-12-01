@@ -1,0 +1,116 @@
+{
+    "holidays": [
+        {
+            "date": 788886000,
+            "i18n": {
+                "en-US": "New Year’s Day",
+                "ja-JP": "元日"
+            }
+        },
+        {
+            "date": 788972400,
+            "i18n": {
+                "en-US": "Substitute Holiday (New Year’s Day)",
+                "ja-JP": "振替休日（元日）"
+            }
+        },
+        {
+            "date": 790095600,
+            "i18n": {
+                "en-US": "Coming of Age Day",
+                "ja-JP": "成人の日"
+            }
+        },
+        {
+            "date": 790182000,
+            "i18n": {
+                "en-US": "Substitute Holiday (Coming of Age Day)",
+                "ja-JP": "振替休日（成人の日）"
+            }
+        },
+        {
+            "date": 792428400,
+            "i18n": {
+                "en-US": "National Foundation Day",
+                "ja-JP": "建国記念の日"
+            }
+        },
+        {
+            "date": 795711600,
+            "i18n": {
+                "en-US": "Vernal Equinox Day",
+                "ja-JP": "春分の日"
+            }
+        },
+        {
+            "date": 799081200,
+            "i18n": {
+                "en-US": "Greenery Day",
+                "ja-JP": "みどりの日"
+            }
+        },
+        {
+            "date": 799426800,
+            "i18n": {
+                "en-US": "Constitution Memorial Day",
+                "ja-JP": "憲法記念日"
+            }
+        },
+        {
+            "date": 799513200,
+            "i18n": {
+                "en-US": "National Holiday",
+                "ja-JP": "国民の休日"
+            }
+        },
+        {
+            "date": 799599600,
+            "i18n": {
+                "en-US": "Children's Day",
+                "ja-JP": "こどもの日"
+            }
+        },
+        {
+            "date": 811090800,
+            "i18n": {
+                "en-US": "Respect for the Aged Day",
+                "ja-JP": "敬老の日"
+            }
+        },
+        {
+            "date": 811782000,
+            "i18n": {
+                "en-US": "Autumnal Equinox Day",
+                "ja-JP": "秋分の日"
+            }
+        },
+        {
+            "date": 813250800,
+            "i18n": {
+                "en-US": "Health and Sports Day",
+                "ja-JP": "体育の日"
+            }
+        },
+        {
+            "date": 815324400,
+            "i18n": {
+                "en-US": "Culture Day",
+                "ja-JP": "文化の日"
+            }
+        },
+        {
+            "date": 817052400,
+            "i18n": {
+                "en-US": "Labor Thanksgiving Day",
+                "ja-JP": "勤労感謝の日"
+            }
+        },
+        {
+            "date": 819644400,
+            "i18n": {
+                "en-US": "The Emperor's Birthday",
+                "ja-JP": "天皇誕生日"
+            }
+        }
+    ]
+}

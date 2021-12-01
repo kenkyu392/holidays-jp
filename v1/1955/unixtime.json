@@ -1,0 +1,67 @@
+{
+    "holidays": [
+        {
+            "date": -473418000,
+            "i18n": {
+                "en-US": "New Year’s Day",
+                "ja-JP": "元日"
+            }
+        },
+        {
+            "date": -472208400,
+            "i18n": {
+                "en-US": "Coming of Age Day",
+                "ja-JP": "成人の日"
+            }
+        },
+        {
+            "date": -466592400,
+            "i18n": {
+                "en-US": "Vernal Equinox Day",
+                "ja-JP": "春分の日"
+            }
+        },
+        {
+            "date": -463222800,
+            "i18n": {
+                "en-US": "The Emperor's Birthday",
+                "ja-JP": "天皇誕生日"
+            }
+        },
+        {
+            "date": -462877200,
+            "i18n": {
+                "en-US": "Constitution Memorial Day",
+                "ja-JP": "憲法記念日"
+            }
+        },
+        {
+            "date": -462704400,
+            "i18n": {
+                "en-US": "Children's Day",
+                "ja-JP": "こどもの日"
+            }
+        },
+        {
+            "date": -450435600,
+            "i18n": {
+                "en-US": "Autumnal Equinox Day",
+                "ja-JP": "秋分の日"
+            }
+        },
+        {
+            "date": -446979600,
+            "i18n": {
+                "en-US": "Culture Day",
+                "ja-JP": "文化の日"
+            }
+        },
+        {
+            "date": -445251600,
+            "i18n": {
+                "en-US": "Labor Thanksgiving Day",
+                "ja-JP": "勤労感謝の日"
+            }
+        }
+    ]
+}
