@@ -77,7 +77,7 @@ def is_holiday(records: Records, dt: datetime) -> Records:
     return None
 
 
-def json_time_format(o):
+def json_datetime_format(o):
     if isinstance(o, (date, datetime)):
         return o.isoformat()
 
@@ -87,11 +87,16 @@ def json_date_format(o):
         return o.strftime("%Y-%m-%d")
 
 
-json_time_options = {
+def json_unixtime_format(o):
+    if isinstance(o, (date, datetime)):
+        return int(o.timestamp())
+
+
+json_datetime_options = {
     'ensure_ascii': False,
     'sort_keys': True,
     'indent': 4,
-    'default': json_time_format,
+    'default': json_datetime_format,
 }
 
 json_date_options = {
@@ -99,6 +104,13 @@ json_date_options = {
     'sort_keys': True,
     'indent': 4,
     'default': json_date_format,
+}
+
+json_unixtime_options = {
+    'ensure_ascii': False,
+    'sort_keys': True,
+    'indent': 4,
+    'default': json_unixtime_format,
 }
 
 
@@ -167,14 +179,22 @@ if __name__ == '__main__':
             records_per_year[year] = []
         records_per_year[year].append(record)
 
+    with open('v1/datetime.json', 'w') as f:
+        json.dump({'holidays': records}, f, **json_datetime_options)
     with open('v1/time.json', 'w') as f:
-        json.dump({'holidays': records}, f, **json_time_options)
+        json.dump({'holidays': records}, f, **json_datetime_options)
     with open('v1/date.json', 'w') as f:
         json.dump({'holidays': records}, f, **json_date_options)
+    with open('v1/unixtime.json', 'w') as f:
+        json.dump({'holidays': records}, f, **json_unixtime_options)
 
     for year, records in records_per_year.items():
         os.makedirs(f'v1/{year}', exist_ok=True)
+        with open(f'v1/{year}/datetime.json', 'w') as f:
+            json.dump({'holidays': records}, f, **json_datetime_options)
         with open(f'v1/{year}/time.json', 'w') as f:
-            json.dump({'holidays': records}, f, **json_time_options)
+            json.dump({'holidays': records}, f, **json_datetime_options)
         with open(f'v1/{year}/date.json', 'w') as f:
             json.dump({'holidays': records}, f, **json_date_options)
+        with open(f'v1/{year}/unixtime.json', 'w') as f:
+            json.dump({'holidays': records}, f, **json_unixtime_options)
