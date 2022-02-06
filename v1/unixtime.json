@@ -6824,6 +6824,125 @@
                 "en-US": "Labor Thanksgiving Day",
                 "ja-JP": "勤労感謝の日"
             }
+        },
+        {
+            "date": 1672498800,
+            "i18n": {
+                "en-US": "New Year’s Day",
+                "ja-JP": "元日"
+            }
+        },
+        {
+            "date": 1672585200,
+            "i18n": {
+                "en-US": "Substitute Holiday (New Year’s Day)",
+                "ja-JP": "振替休日（元日）"
+            }
+        },
+        {
+            "date": 1673190000,
+            "i18n": {
+                "en-US": "Coming of Age Day",
+                "ja-JP": "成人の日"
+            }
+        },
+        {
+            "date": 1676041200,
+            "i18n": {
+                "en-US": "National Foundation Day",
+                "ja-JP": "建国記念の日"
+            }
+        },
+        {
+            "date": 1677078000,
+            "i18n": {
+                "en-US": "The Emperor's Birthday",
+                "ja-JP": "天皇誕生日"
+            }
+        },
+        {
+            "date": 1679324400,
+            "i18n": {
+                "en-US": "Vernal Equinox Day",
+                "ja-JP": "春分の日"
+            }
+        },
+        {
+            "date": 1682694000,
+            "i18n": {
+                "en-US": "Showa Day",
+                "ja-JP": "昭和の日"
+            }
+        },
+        {
+            "date": 1683039600,
+            "i18n": {
+                "en-US": "Constitution Memorial Day",
+                "ja-JP": "憲法記念日"
+            }
+        },
+        {
+            "date": 1683126000,
+            "i18n": {
+                "en-US": "Greenery Day",
+                "ja-JP": "みどりの日"
+            }
+        },
+        {
+            "date": 1683212400,
+            "i18n": {
+                "en-US": "Children's Day",
+                "ja-JP": "こどもの日"
+            }
+        },
+        {
+            "date": 1689519600,
+            "i18n": {
+                "en-US": "Marine Day",
+                "ja-JP": "海の日"
+            }
+        },
+        {
+            "date": 1691679600,
+            "i18n": {
+                "en-US": "Mountain Day",
+                "ja-JP": "山の日"
+            }
+        },
+        {
+            "date": 1694962800,
+            "i18n": {
+                "en-US": "Respect for the Aged Day",
+                "ja-JP": "敬老の日"
+            }
+        },
+        {
+            "date": 1695394800,
+            "i18n": {
+                "en-US": "Autumnal Equinox Day",
+                "ja-JP": "秋分の日"
+            }
+        },
+        {
+            "date": 1696777200,
+            "i18n": {
+                "en-US": "Health and Sports Day",
+                "ja-JP": "スポーツの日"
+            }
+        },
+        {
+            "date": 1698937200,
+            "i18n": {
+                "en-US": "Culture Day",
+                "ja-JP": "文化の日"
+            }
+        },
+        {
+            "date": 1700665200,
+            "i18n": {
+                "en-US": "Labor Thanksgiving Day",
+                "ja-JP": "勤労感謝の日"
+            }
         }
     ]
 }
